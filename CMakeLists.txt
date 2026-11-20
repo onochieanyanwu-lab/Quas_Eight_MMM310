@@ -24,8 +24,8 @@ juce_add_plugin(Q8Strip
     COPY_PLUGIN_AFTER_BUILD FALSE)
 
 target_sources(Q8Strip PRIVATE
-    Source/PluginProcessor.cpp
-    Source/PluginEditor.cpp)
+    PluginProcessor.cpp
+    PluginEditor.cpp)
 
 target_compile_definitions(Q8Strip PUBLIC
     JUCE_WEB_BROWSER=0
